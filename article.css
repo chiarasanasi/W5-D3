@@ -1,0 +1,23 @@
+.articolo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  background-color: #fbf7e3;
+  margin: 1em 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.articolo img {
+  width: 300px;
+  height: 200px; /* Imposta un'altezza fissa */
+  object-fit: cover; /* Adatta l'immagine riempiendo l'area senza distorsioni */
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.articolo div {
+  color: #612406;
+  width: 50%;
+}
